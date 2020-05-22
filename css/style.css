@@ -98,17 +98,24 @@ b {
   display: flex;
 }
 
-.nav-menu {
-  margin-right: 160px;
+.top-part {
+  padding-bottom: 60px;
 }
 
-.nav-column:not(:last-child) {
+.logo {
+  width: calc(100% / 2);
+}
+
+.nav-menu .link {
+  display: block;
+}
+
+.nav-menu .item:not(:last-child) {
   margin-right: 50px;
 }
 
-.top-part {
-  padding-bottom: 60px;
-  justify-content: space-between;
+.register {
+  margin-left: auto;
 }
 
 .register .item:not(:last-child) {
